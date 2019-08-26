@@ -1,0 +1,70 @@
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    padding: 0;
+    margin: 0;
+    /* background: #12c2e9;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: url("https://i.pinimg.com/originals/45/82/80/458280582b17c5fbf5be3bac35690e22.jpg");
+    background-size: cover;
+}
+h1{
+    color: white;
+    background:black;
+    margin: 0;
+    padding: 13px 20px;
+    font-weight: normal;
+}
+.todobox{
+    background:white;
+    margin: 150px auto;
+    width:450px;
+    box-shadow: 0 0 15px rgb(233, 233, 240);
+}
+.select{
+    text-decoration: line-through;
+    color: grey;
+}
+input{
+    color: blue;
+    font-size: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 10px 10px 20px;
+    background:aqua;
+    border: 3px solid rgba(0, 0, 0, 0);
+}
+ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+span{
+    background:#e74c3c;
+    height: 50px;
+    margin-right:20px;
+    text-align: center;
+    color:black;
+    width: 0px;
+    display:inline-block;
+    opacity:0;
+    transition: 0.3s linear;
+}
+li{
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: 'Hind Siliguri', sans-serif;
+
+}
+li:nth-child(2n){
+    background: aqua;
+}
+.fa-plus{
+    float:right;
+    margin-top:6px;
+}
+li:hover span{
+  width:50px;
+  opacity:1.0;
+}
